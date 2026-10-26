@@ -63,7 +63,7 @@ A web app that lays out addresses for Nagagata 3 (長形3号, the standard Japan
 
 ## Setup
 
-| | |
+| Part | Spec |
 | :- | :- |
 | CPU | AMD Ryzen 9 9900X (12 cores) |
 | GPU | NVIDIA GeForce RTX 3070 Ti (8 GB), the CUDA target for G# |
