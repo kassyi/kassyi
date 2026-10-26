@@ -13,6 +13,14 @@ The predecessor of G# and the first of my zero-allocation series: a Roslyn incre
 - Streams formatted code through `ref struct` scopes instead of building and normalizing syntax trees
 - Reports invalid callbacks as compile-time errors instead of failing silently
 
+**[N3-PDF](https://github.com/kassyi/n3-pdf)** ([open the app](https://kassyi.github.io/n3-pdf/))
+
+A web app that lays out addresses for Japanese long envelopes (長形3号) and outputs a print-ready PDF in the browser.
+
+- Live PDF preview while typing (React 19, TypeScript, `@react-pdf/renderer`)
+- Fills in the address from the postal code
+- Converts numbers and hyphens for vertical Japanese writing
+
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="36" alt="C#" />&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" height="36" alt=".NET" />&nbsp;&nbsp;
