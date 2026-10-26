@@ -23,7 +23,7 @@ A rewrite of the ThumbHash image placeholder encoder and decoder in TypeScript, 
 
 **[N3-PDF](https://github.com/kassyi/n3-pdf)** ([open the app](https://kassyi.github.io/n3-pdf/))
 
-A web app that lays out addresses for Japanese long envelopes (長形3号) and outputs a print-ready PDF in the browser.
+A web app that lays out addresses for Nagagata 3 (長形3号, the standard Japanese business envelope, 120 × 235 mm) and outputs a print-ready PDF in the browser.
 
 - Live PDF preview while typing (React 19, TypeScript, `@react-pdf/renderer`)
 - Fills in the address from the postal code
@@ -33,6 +33,8 @@ A web app that lays out addresses for Japanese long envelopes (長形3号) and o
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="36" alt="C#" />&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" height="36" alt=".NET" />&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="36" alt="C++" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="36" alt="TypeScript" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="36" alt="React" />&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="36" alt="Node.js" />&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="36" alt="Git" />
 </p>
