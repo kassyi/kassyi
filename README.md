@@ -13,6 +13,14 @@ The predecessor of G# and the first of my zero-allocation series: a Roslyn incre
 - Streams formatted code through `ref struct` scopes instead of building and normalizing syntax trees
 - Reports invalid callbacks as compile-time errors instead of failing silently
 
+**[ThumbHash Optimized](https://github.com/kassyi/ThumbHashOptimized)**
+
+A rewrite of the ThumbHash image placeholder encoder and decoder in TypeScript, benchmarked against the original in the browser.
+
+- Encode about 6.3x and decode about 13.6x faster than the original (Chrome, Ryzen 9 7900X)
+- Folds the DCT by symmetry, processes color channels separately, packs channels into one register (SWAR) and uses lookup tables
+- Generates the unrolled hot loops from TypeScript generators and EJS templates, so the source stays readable
+
 **[N3-PDF](https://github.com/kassyi/n3-pdf)** ([open the app](https://kassyi.github.io/n3-pdf/))
 
 A web app that lays out addresses for Japanese long envelopes (長形3号) and outputs a print-ready PDF in the browser.
