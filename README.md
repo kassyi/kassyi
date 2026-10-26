@@ -60,3 +60,16 @@ A web app that lays out addresses for Nagagata 3 (長形3号, the standard Japan
 <p align="center">
   <img width="100%" src="https://ghchart.rshah.org/40c463/kassyi" alt="Contribution chart" />
 </p>
+
+## Setup
+
+| | |
+| :- | :- |
+| CPU | AMD Ryzen 9 9900X (12 cores) |
+| GPU | NVIDIA GeForce RTX 3070 Ti (8 GB), the CUDA target for G# |
+| Memory | 64 GB DDR5-5600 |
+| Storage | 3 × 1 TB SSD + 2 TB HDD |
+| Displays | 2 × 4K + 2 × Full HD |
+| OS | Windows 11 Pro, with WSL for Linux builds |
+
+The benchmarks in the projects above were measured on a Ryzen 9 7900X, which this CPU replaced.
